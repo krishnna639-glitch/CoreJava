@@ -1,0 +1,66 @@
+An **Interface** is a completely "abstract class" that is used to group related methods with empty bodies. It acts as a strict contract or blueprint for what a class should do, but not how it should do it.
+
+Think of a **power outlet**: the outlet defines a standard interface (it has slots for plug prongs). Any appliance—a fan, a toaster, or a laptop charger—can plug into it and get power, as long as it fits that standard structure. The outlet doesn't care *how* the appliance uses the electricity, only that it matches the connection contract.
+
+Here is a simple example in Java:
+
+### 1. The Interface (The Contract)
+
+An interface uses the `interface` keyword instead of `class`. All methods inside an interface are automatically `public` and `abstract` (they don't have code bodies).
+
+```java
+// The interface
+interface Animal {
+    // Abstract method (does not have a body)
+    void sound(); 
+    
+    // Another abstract method
+    void sleep(); 
+}
+
+```
+
+### 2. Implementing the Interface
+
+To use an interface, a class must use the **`implements`** keyword. The implementing class is required to provide the actual code (the body) for **all** methods declared in the interface.
+
+```java
+// Pig "implements" the Animal interface
+class Pig implements Animal {
+    
+    @Override
+    public void sound() {
+        // The body of sound() is provided here
+        System.out.println("The pig says: Wee Wee!");
+    }
+
+    @Override
+    public void sleep() {
+        // The body of sleep() is provided here
+        System.out.println("Zzz...");
+    }
+}
+
+```
+
+### 3. Running the Program
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        // Create a Pig object using an Animal interface reference
+        Animal myPig = new Pig(); 
+        
+        myPig.sound(); // Output: The pig says: Wee Wee!
+        myPig.sleep(); // Output: Zzz...
+    }
+}
+
+```
+
+---
+
+### ⚡ Why use Interfaces instead of Abstract Classes?
+
+* **Multiple Inheritance:** In Java, a class can only extend *one* parent class. However, a class can implement **multiple interfaces** at the same time (e.g., `class Pig implements Animal, Domestic`).
+* **Loose Coupling:** It separates the specification of an operation from its actual implementation, making your software system much easier to scale, modify, and swap parts out later.
