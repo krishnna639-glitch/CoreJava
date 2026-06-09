@@ -1,3 +1,69 @@
+// Abstraction in Java is an object-oriented programming concept that hides 
+// implementation details and shows only the essential features of an object.
+
+// Think of driving a car:
+
+// You use the steering wheel, brakes, and accelerator.
+// You don't need to know how the engine works internally.
+
+// Similarly, abstraction in Java lets users interact with an object without 
+// knowing its internal implementation.
+
+// -->Why use abstraction?
+// 1 . Reduces complexity
+// 2 . Increases security by hiding sensitive details
+// 3 . Makes code easier to maintain and extend
+// 4 . How is abstraction achieved in Java?
+
+// -->Abstract Classes
+// -->Interfaces
+// Example using an "Abstract Class"
+// abstract class Animal {
+//     abstract void makeSound(); // abstract method
+
+//     void sleep() {
+//         System.out.println("Sleeping...");
+//     }
+// }
+
+// class Dog extends Animal {
+//     void makeSound() {
+//         System.out.println("Bark");
+//     }
+// }
+
+// public class Main {
+//     public static void main(String[] args) {
+//         Animal dog = new Dog();
+//         dog.makeSound(); // Bark
+//         dog.sleep();     // Sleeping...
+//     }
+// }
+// Example using an "Interface"
+// interface Vehicle {
+//     void start();
+// }
+
+// class Car implements Vehicle {
+//     public void start() {
+//         System.out.println("Car started");
+//     }
+// }
+
+// public class Main {
+//     public static void main(String[] args) {
+//         Vehicle car = new Car();
+//         car.start();
+//     }
+// }
+// -->Key Difference
+// 1 Abstract Class: Can have both abstract and concrete methods.
+// 2 Interface: Defines a contract that classes must implement.
+// Definition (Interview Style)
+
+// Abstraction is the process of hiding implementation details and exposing 
+// only the essential functionality to the user. In Java, it is achieved using abstract classes and interfaces.
+
 // Abstract class
 abstract class CoffeeMachine {
     

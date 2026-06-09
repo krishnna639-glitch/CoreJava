@@ -27,16 +27,6 @@ public class sample {
 
         System.out.println("\n--- Processing an array polymorphically ---");
         
-        // Storing different kinds of animals in a single Animal array
-        Animal[] zoo = { new Dog(), new Cat(), new Animal() };
-
-        for (Animal animal : zoo) {
-            animal.makeSound(); 
-        }
-        /* Output:
-        The dog barks: Woof! Woof!
-        The cat meows: Meow! Meow!
-        The animal makes a generic sound
-        */
+        
     }
 }
