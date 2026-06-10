@@ -21,6 +21,16 @@ public class RightTrianglePattern {
 }
 
 ```
+Output
+
+```
+*
+**
+***
+****
+*****
+
+```
 
 ---
 
@@ -48,6 +58,15 @@ public class LeftTrianglePattern {
     }
 }
 
+```
+Output
+
+```
+*
+**
+***
+****
+*****
 ```
 
 ---
@@ -80,6 +99,15 @@ public class PyramidPattern {
 }
 
 ```
+Output
+
+```
+    *
+   ***
+  *****
+ *******
+*********
+```
 
 ---
 
@@ -106,6 +134,14 @@ public class ReversePyramidPattern {
 }
 
 ```
+Output
+```
+*********
+ *******
+  *****
+   ***
+    *
+```
 
 ---
 
@@ -130,19 +166,21 @@ public class UpperTrianglePattern {
 }
 
 ```
+Output
+```
+    *
+   **
+  ***
+ ****
+*****
+```
 
 ---
 
 ## 6. Mirror Upper Star Triangle Pattern
 
 Flips the upper star triangle laterally or prints its inverse block complement.
-    *****
-     ****
-      ***
-       **
-        *
-
-
+    
 ```java
 public class MirrorUpperTrianglePattern {
     public static void main(String[] args) {
@@ -169,6 +207,15 @@ public class MirrorUpperTrianglePattern {
 }
 
 ```
+Output
+```
+*****
+ ****
+  ***
+   **
+    *
+```
+
 
 ---
 
@@ -176,13 +223,7 @@ public class MirrorUpperTrianglePattern {
 
 Prints a decreasing right-angled triangle starting from the top.
 A downward star triangle pattern (also known as an inverted left-aligned triangle) starts with a full row of stars at the top and decreases by one star on each row until it reaches a single star at the bottom.
-    *****
-    ****
-    ***
-    **
-    *
-
-
+    
 ```java
 public class DownwardTrianglePattern {
     public static void main(String[] args) {
@@ -197,6 +238,14 @@ public class DownwardTrianglePattern {
     }
 }
 
+```
+Output
+```
+*****
+****
+***
+**
+*
 ```
 
 ---
@@ -271,6 +320,14 @@ public class PascalsTriangle {
 }
 
 ```
+Output
+```
+    1 
+   1 1 
+  1 2 1 
+ 1 3 3 1 
+1 4 6 4 1 
+```
 
 ---
 
@@ -307,6 +364,18 @@ public class DiamondPattern {
     }
 }
 
+```
+Output
+```
+    *
+   ***
+  *****
+ *******
+*********
+ *******
+  *****
+   ***
+    *
 ```
 
 ---
@@ -347,6 +416,22 @@ public class HollowSquare {
 }
 
 
+```
+Output
+```
+*****
+*****
+*****
+*****
+*****
+```
+Output
+```
+*****
+*   *
+*   *
+*   *
+*   *
 ```
 
 ---
@@ -418,12 +503,12 @@ public class SpiralNumberPattern { //remaining one
 }
 
 ```
-
+Output
 ```
-*
-**
-***
-****
-*****
+ 1  2  3  4
+12 13 14  5
+11 16 15  6
+10  9  8  7
+
 
 ```
