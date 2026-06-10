@@ -4,6 +4,7 @@
 ## 1. Right Triangle Star Pattern
 Prints a right-angled triangle pointing to the left.
 
+### Code
 ```java
 public class RightTrianglePattern {
     public static void main(String[] args) {
@@ -19,12 +20,17 @@ public class RightTrianglePattern {
 
 ```
 
+### Output
+
+```text
+* * * * * * * * * * * * * * * ```
+
 ---
 
 ## 2. Left Triangle Star Pattern
-
 Prints a right-angled triangle aligned to the right side.
 
+### Code
 ```java
 public class LeftTrianglePattern {
     public static void main(String[] args) {
@@ -45,12 +51,17 @@ public class LeftTrianglePattern {
 
 ```
 
+### Output
+
+```text
+        * * * * * * * * * * * * * * * ```
+
 ---
 
 ## 3. Pyramid Star Pattern
-
 Prints a standard centered pyramid.
 
+### Code
 ```java
 public class PyramidPattern {
     public static void main(String[] args) {
@@ -71,12 +82,17 @@ public class PyramidPattern {
 
 ```
 
+### Output
+
+```text
+    * * * * * * * * * * * * * * * ```
+
 ---
 
 ## 4. Reverse Pyramid Star Pattern
-
 Prints an inverted centered pyramid.
 
+### Code
 ```java
 public class ReversePyramidPattern {
     public static void main(String[] args) {
@@ -97,12 +113,17 @@ public class ReversePyramidPattern {
 
 ```
 
+### Output
+
+```text
+* * * * * * * * * * * * * * * ```
+
 ---
 
 ## 5. Upper Star Triangle Pattern
+An upper-pointing triangle structure with a dense, flat base.
 
-An upper-pointing triangle structure (similar to a dense pyramid or a component used for larger geometric patterns).
-
+### Code
 ```java
 public class UpperTrianglePattern {
     public static void main(String[] args) {
@@ -121,11 +142,24 @@ public class UpperTrianglePattern {
 
 ```
 
+### Output
+
+```text
+    *
+   ***
+  *****
+ *******
+*********
+
+```
+
 ---
 
 ## 6. Mirror Upper Star Triangle Pattern
 
-Flips the upper star triangle laterally or prints its inverse block complement.
+An inverted triangle filled symmetrically with spacing.
+
+### Code
 
 ```java
 public class MirrorUpperTrianglePattern {
@@ -145,12 +179,17 @@ public class MirrorUpperTrianglePattern {
 
 ```
 
+### Output
+
+```text
+* * * * * * * * * * * * * * * ```
+
 ---
 
 ## 7. Downward Triangle Star Pattern
+Prints a decreasing right-angled triangle starting from the top-left.
 
-Prints a decreasing right-angled triangle starting from the top.
-
+### Code
 ```java
 public class DownwardTrianglePattern {
     public static void main(String[] args) {
@@ -166,12 +205,17 @@ public class DownwardTrianglePattern {
 
 ```
 
+### Output
+
+```text
+* * * * * * * * * * * * * * * ```
+
 ---
 
 ## 8. Mirror Lower Star Triangle Pattern
+An inverted dense triangle filled symmetrically on the alternate side axis.
 
-An inverted triangle filled symmetrically on the alternate side axis.
-
+### Code
 ```java
 public class MirrorLowerTrianglePattern {
     public static void main(String[] args) {
@@ -180,7 +224,7 @@ public class MirrorLowerTrianglePattern {
             for (int j = 1; j <= rows - i; j++) {
                 System.out.print(" ");
             }
-            for (int k = 1; k <= i; k++) {
+            for (int k = 1; k <= (2 * i - 1); k++) {
                 System.out.print("*");
             }
             System.out.println();
@@ -190,11 +234,24 @@ public class MirrorLowerTrianglePattern {
 
 ```
 
+### Output
+
+```text
+*********
+ *******
+  *****
+   ***
+    *
+
+```
+
 ---
 
 ## 9. Star Pascal's Triangle
 
-A star pattern following the combinations and alignment of Pascal's Triangle.
+A star pattern matching the geometric alignment of Pascal's Triangle combinations.
+
+### Code
 
 ```java
 public class StarPascalTriangle {
@@ -204,7 +261,6 @@ public class StarPascalTriangle {
             for (int j = 1; j <= rows - i; j++) {
                 System.out.print(" ");
             }
-            int c = 1;
             for (int k = 1; k <= i; k++) {
                 System.out.print("* ");
             }
@@ -215,12 +271,17 @@ public class StarPascalTriangle {
 
 ```
 
+### Output
+
+```text
+    * * * * * * * * * * * * * * * ```
+
 ---
 
 ## 10. Diamond Star Pattern
+Combines an upright pyramid and a reverse pyramid to create a clean diamond shape.
 
-Combines an upright pyramid and a reverse pyramid to create a perfect diamond shape.
-
+### Code
 ```java
 public class DiamondPattern {
     public static void main(String[] args) {
@@ -250,12 +311,17 @@ public class DiamondPattern {
 
 ```
 
+### Output
+
+```text
+    * * * * * * * * * * * * * * * * * * * * * * * * * ```
+
 ---
 
 ## 11. Square Star Pattern
+Prints a solid grid/square of stars based on the given size.
 
-Prints a simple grid/square of stars based on the given dimensions.
-
+### Code
 ```java
 public class SquarePattern {
     public static void main(String[] args) {
@@ -271,12 +337,17 @@ public class SquarePattern {
 
 ```
 
+### Output
+
+```text
+* * * * * * * * * * * * * * * * * * * * * * * * * ```
+
 ---
 
 ## 12. Pyramid Star Pattern (Alternative Variant)
+An alternative math formula approach mapping dense loops to explicit flag boundaries (`2 * i + 1`).
 
-An alternative standard way to map logic cleanly using explicit flag boundaries or single loop iterations for row sizing.
-
+### Code
 ```java
 public class PyramidAlternative {
     public static void main(String[] args) {
@@ -295,11 +366,24 @@ public class PyramidAlternative {
 
 ```
 
+### Output
+
+```text
+    *
+   ***
+  *****
+ *******
+*********
+
+```
+
 ---
 
 ## 13. Spiral Pattern of Numbers
 
-Prints a matrix of numbers filling inward sequentially in a spiral direction.
+Fills a 2D matrix inward sequentially with numbers in a clockwise winding spiral direction.
+
+### Code
 
 ```java
 public class SpiralNumberPattern {
@@ -338,6 +422,16 @@ public class SpiralNumberPattern {
         }
     }
 }
+
+```
+
+### Output
+
+```text
+1	2	3	4	
+12	13	14	5	
+11	16	15	6	
+10	9	8	7	
 
 ```
 
