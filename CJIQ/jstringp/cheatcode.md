@@ -1,9 +1,3 @@
-Here is the complete source code and logic for the first 5 Java String programs compiled into a structured, copy-pasteable Markdown (`.md`) format.
-
-```markdown
-# Java String Programs - Quick Reference
-
-A compilation of essential Java String manipulation programs, covering character extraction, replacement, and reversal techniques.
 
 ---
 
@@ -171,10 +165,6 @@ Sorted String: aeforstw
 
 ```
 
-
-```
-
-```
 
 
 
@@ -365,18 +355,6 @@ Original String: 0000123456
 After removing zeros: 123456
 
 ```
-
----
-
-> **Note:** For deeper explanations, context tracking, or alternative collection-based challenges, check out the complete list of [GeeksforGeeks Java Programming Examples](https://www.geeksforgeeks.org/java/java-programming-examples/).
-
-```
-
-```
-```markdown
-# Java String Programs (Part 3: Programs 11-15)
-
-A structured reference guide covering standard string comparison techniques, word filtering, and text insertion methods in Java.
 
 ---
 
