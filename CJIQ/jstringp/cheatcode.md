@@ -171,9 +171,6 @@ Sorted String: aeforstw
 
 ```
 
----
-
-> **Note:** For more string-based algorithms, check out the comprehensive collections over at the [GeeksforGeeks Java Programming Examples](https://www.geeksforgeeks.org/java/java-programming-examples/).
 
 ```
 
