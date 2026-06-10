@@ -420,5 +420,10 @@ public class SpiralNumberPattern { //remaining one
 ```
 
 ```
+*
+**
+***
+****
+*****
 
 ```
