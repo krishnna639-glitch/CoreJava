@@ -176,7 +176,6 @@ Sorted String: aeforstw
 
 ```
 
-Here is the companion Markdown (`.md`) file containing programs 6 through 10 from the [GeeksforGeeks Java String Programs](https://www.geeksforgeeks.org/java/java-programming-examples/) collection.
 
 ```markdown
 # Java String Programs (Part 2: Programs 6-10)
