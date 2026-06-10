@@ -178,9 +178,6 @@ Sorted String: aeforstw
 
 
 ```markdown
-# Java String Programs (Part 2: Programs 6-10)
-
-A structured reference guide covering intermediate Java String manipulation tasks, including character swapping, pangram checking, regular expressions, and Unicode handling.
 
 ---
 
