@@ -97,7 +97,7 @@ class Geeks {
 
 ---
 
-
+```markdown
 # Java List Interface Methods Reference
 
 The `List` interface provides a rich set of methods to manage ordered collections. Beyond the operations inherited from the `Collection` interface, `List` introduces index-based operations, specialized search capabilities, and precise positional control.
@@ -125,7 +125,7 @@ Methods used to insert, update, or remove elements from specific positions in th
 ## 2. Array Shifting Visualization
 When using index-based insertions or removals like `add(int index, E element)`, the underlying system must shift elements to maintain sequential order:
 
-```markdown
+
 ```mermaid
 grid-layout
     %% Conceptual representation of add(1, "For") on a List ["Geeks", "Geeks"]
