@@ -96,13 +96,8 @@ class Geeks {
 > 💡 **Tip:** Always program to an interface rather than an implementation to ensure flexibility. For example, use `List<String> list = new ArrayList<>();` instead of `ArrayList<String> list = new ArrayList<>();`.
 
 ---
-Here is a separate, comprehensive Markdown (`.md`) file dedicated entirely to the **Methods of the List Interface** based on the [GeeksforGeeks documentation](https://www.geeksforgeeks.org/java/list-interface-java-examples/) you are viewing.
 
-It organizes the methods into logical functional categories (Modification, Search, Utility, etc.) and includes a visual representation of how a method like `add(index, element)` shifts elements in memory.
 
-You can copy and paste the raw text block below:
-
-```markdown
 # Java List Interface Methods Reference
 
 The `List` interface provides a rich set of methods to manage ordered collections. Beyond the operations inherited from the `Collection` interface, `List` introduces index-based operations, specialized search capabilities, and precise positional control.
