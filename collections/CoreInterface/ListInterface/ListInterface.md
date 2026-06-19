@@ -140,7 +140,7 @@ graph LR
     B -->|Shift Right| C1
     B -.->|New Element| B1
 
-    style B1 fill:#bbf,stroke:#333,stroke-width:2px
+    style B1 fill:#bbf,stroke:#fff,stroke-width:2px
 ```
 ---
 
