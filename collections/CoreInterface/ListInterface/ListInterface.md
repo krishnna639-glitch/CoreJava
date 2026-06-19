@@ -123,27 +123,23 @@ Methods used to insert, update, or remove elements from specific positions in th
 ## 2. Array Shifting Visualization
 When using index-based insertions or removals like `add(int index, E element)`, the underlying system must shift elements to maintain sequential order:
 
+graph LR
+    subgraph Step 1: Initial List
+        A[Index 0: Geeks]
+        B[Index 1: Geeks]
+    end
 
-```mermaid
-grid-layout
-    %% Conceptual representation of add(1, "For") on a List ["Geeks", "Geeks"]
-    graph LR
-        subgraph Initial List
-            I0[Index 0: "Geeks"]
-            I1[Index 1: "Geeks"]
-        Shifted[Index 1 is targeted] --> Action
-        end
+    subgraph Step 2: Shift & Insert
+        direction LR
+        A1[Index 0: Geeks]
+        B1[Index 1: FOR]
+        C1[Index 2: Geeks]
+    end
 
-        subgraph Shift & Insert Operation
-            Action{Insert "For" at Index 1}
-            Action --> F0[Index 0: "Geeks"]
-            Action --> F1[Index 1: "For"]
-            Action --> F2[Index 2: "Geeks"]
-            style F1 fill:#bbf,stroke:#333
-        end
+    B -->|Shift Right| C1
+    B -.->|New Element| B1
 
-```
-
+    style B1 fill:#bbf,stroke:#333,stroke-width:2px
 ---
 
 ### 🔍 Retrieval & Search Capabilities
