@@ -1,5 +1,4 @@
 
-```markdown
 # Java List Interface Guide
 
 The `List` interface in Java extends the `Collection` interface and is a core part of the `java.util` package. It represents an ordered collection (also known as a sequence) where duplicates are allowed and elements can be accessed precisely by their index.
@@ -97,7 +96,6 @@ class Geeks {
 
 ---
 
-```markdown
 # Java List Interface Methods Reference
 
 The `List` interface provides a rich set of methods to manage ordered collections. Beyond the operations inherited from the `Collection` interface, `List` introduces index-based operations, specialized search capabilities, and precise positional control.
