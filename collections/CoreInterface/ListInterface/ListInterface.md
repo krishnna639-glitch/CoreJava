@@ -123,6 +123,7 @@ Methods used to insert, update, or remove elements from specific positions in th
 ## 2. Array Shifting Visualization
 When using index-based insertions or removals like `add(int index, E element)`, the underlying system must shift elements to maintain sequential order:
 
+```mermaid
 graph LR
     subgraph Step 1: Initial List
         A[Index 0: Geeks]
@@ -140,6 +141,7 @@ graph LR
     B -.->|New Element| B1
 
     style B1 fill:#bbf,stroke:#333,stroke-width:2px
+```
 ---
 
 ### 🔍 Retrieval & Search Capabilities
