@@ -72,6 +72,20 @@ graph TD
 
 ## topics included 
 1. Core Interfaces
+    - Collection Interface
+        * Declaration
+        * Sub - Interfaces
+        * Operation
+    - List Interface
+        * Syntax
+        * Declaration
+        * Operation
+        * Methods
+        * Final Implementation
+    - Queue Interface
+    - Dequeue Interface
+    - Set Interface
+    - Map Interface 
 
 2. List Implemetation
 
