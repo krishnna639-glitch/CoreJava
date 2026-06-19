@@ -125,6 +125,7 @@ Methods used to insert, update, or remove elements from specific positions in th
 ## 2. Array Shifting Visualization
 When using index-based insertions or removals like `add(int index, E element)`, the underlying system must shift elements to maintain sequential order:
 
+```markdown
 ```mermaid
 grid-layout
     %% Conceptual representation of add(1, "For") on a List ["Geeks", "Geeks"]
