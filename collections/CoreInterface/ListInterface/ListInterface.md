@@ -23,8 +23,8 @@ graph TD
     List -.-> Vector[Vector]
     Vector --> Stack[Stack]
     
-    style Collection fill:#f9f,stroke:#333,stroke-width:2px
-    style List fill:#bbf,stroke:#333,stroke-width:2px
+    style Collection fill:#f9f,stroke:#333,color:#333,stroke-width:2px
+    style List fill:#bbf,stroke:#333,stroke-width:2px,color:#333
 
 ```
 
